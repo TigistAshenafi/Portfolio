@@ -240,7 +240,7 @@ body.dark #moon{
     background:  rgb(33, 29, 161);
     font-weight: 500;
     transition: all 0.5s ease;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 8px;
     color: #fff;
     width: 200px;
@@ -317,22 +317,23 @@ cursor: pointer;
     justify-content: right;
     align-items: center;
     margin-top: 20%;
-    max-height: 100px;
-    width: 100%;
+    margin-left: 40px;
+    max-height: 600;
+    width: 600px;
 }
 
 .image{
     margin-top: 10%;
-    width: 500px;
-    height: 500px;
-    border-radius: 50% 50% 50% 50%;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
     overflow: hidden;
     animation: imgFloat 5s ease-in-out infinite;
 }
 
 .image img{
-    width: 500px;
-    height: 700px;
+    width: 600px;
+    height: 600px;
     object-fit: cover;
 }
 
@@ -545,7 +546,10 @@ cursor: pointer;
 
 .project-box label{
     font-size: 15px;
-    padding: 15px;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
     color: var(--text-color);
 }
 
@@ -716,8 +720,8 @@ footer{
     }
     .image,
     .image img{
-        width: 320px;
-        height:320px; 
+        width: 600px;
+        height:600px; 
     }
 }
 
