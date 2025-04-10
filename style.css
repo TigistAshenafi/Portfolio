@@ -219,6 +219,7 @@ body.dark #moon{
     border-radius: 8px;
     cursor: pointer;
     gap: 20px;
+    text-decoration: none;
 }
 
 .text-btn .btn{
@@ -232,13 +233,13 @@ body.dark #moon{
     display:flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
     font-size: 20px;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 8px;
     background:  rgb(33, 29, 161);
     font-weight: 500;
+    text-decoration: none;
     transition: all 0.5s ease;
     margin-left: 100px;
     margin-top: 8px;
