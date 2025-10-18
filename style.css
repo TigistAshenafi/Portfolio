@@ -247,18 +247,21 @@ body.dark #moon{
 }
 
 .btn i{
-    margin-right: 50px;
+    color: #fff;
 }
 .btn:hover{
-    color:  rgb(78, 76, 214);
+    background-color:  rgb(78, 76, 214);
     cursor: pointer;
+    transform: translateY(-5px);
 }
 
 i{
     font-size: 40px;
     color:rgb(33, 29, 161) ;
 }
-
+a{
+    text-decoration: none;
+}
 .social-icons{
     display: flex;
     margin-top: 30px;
@@ -473,7 +476,7 @@ cursor: pointer;
 
 .skill-per.html{
     animation-delay: 0.1s;
-    width:90%;
+    width:95%;
 }
 .skill-per.css{
     animation-delay: 0.1s;
@@ -481,11 +484,15 @@ cursor: pointer;
 }
 .skill-per.JavaScript{
     animation-delay: 0.1s;
-    width: 60%;
+    width: 85%;
 }
-.skill-per.php{
+.skill-per.express{
     animation-delay: 0.1s;
-    width: 75%;
+    width: 80%;
+}
+.skill-per.angularjs{
+    animation-delay: 0.1s;
+    width: 70%;
 }
 
 @keyframes progress{
