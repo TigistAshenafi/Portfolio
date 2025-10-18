@@ -21,12 +21,15 @@
     --logo-color :  #000;
 
     --text-color:  #000000;
-    --color-white:  #242526;
+    --color-white: #242526;
 
     --icon-color: #242526;
     --mode-color:  #ccc;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
+  
 body{
     background: var(--body-color);
 }
@@ -35,7 +38,7 @@ body.dark{
     --body-color :  #000000;
     --box-color :  #fff;
 
-    --nav-color :  rgb(61, 59, 218);
+    --nav-color :  rgb(54, 53, 132);
     --color-white :  #fff;
     --text-color: #fff;
 
@@ -255,6 +258,7 @@ body.dark #moon{
     transform: translateY(-5px);
 }
 
+<<<<<<< HEAD
 i{
     font-size: 40px;
     color:rgb(33, 29, 161) ;
@@ -262,6 +266,13 @@ i{
 a{
     text-decoration: none;
 }
+=======
+button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+
+>>>>>>> e5611f8cc4f7bd35d0e5ae7d09639488e1213a6b
 .social-icons{
     display: flex;
     margin-top: 30px;
@@ -731,7 +742,7 @@ footer{
     }
 } */
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:768px){
     .nav-menu-btn{
         display: none;
     }
@@ -816,7 +827,7 @@ footer{
     }
 }
 
-@media only screen and (max-width:540px){
+@media only screen and (max-width:768px){
 
     .featured-name{
         font-size: 40px;
